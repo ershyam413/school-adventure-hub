@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { BookOpen, Dumbbell, Flask, Laptop, Music, Palette, Utensils, Stethoscope } from "lucide-react";
+import { BookOpen, Dumbbell, Beaker, Laptop, Music, Palette, Utensils, Stethoscope } from "lucide-react";
 
 const FacilitiesPage = () => {
   const facilities = [
@@ -18,7 +18,7 @@ const FacilitiesPage = () => {
       description: "State-of-the-art computer labs with high-speed internet and the latest software to develop digital literacy and technical skills."
     },
     {
-      icon: <Flask className="h-12 w-12 text-school-accent" />,
+      icon: <Beaker className="h-12 w-12 text-school-accent" />,
       title: "Science Laboratories",
       description: "Well-equipped physics, chemistry, and biology labs with modern equipment for practical learning and experiments."
     },
