@@ -25,7 +25,7 @@ const HomePage = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-display font-bold text-school-dark mb-6">
-                  Welcome to <span className="text-school-primary">Brilliant Minds Academy</span>
+                  Welcome to <span className="text-school-primary">Brilliant Minds Academy1</span>
                 </h2>
                 <p className="text-gray-600 mb-6">
                   Founded in 1995, Brilliant Minds Academy has been a center of academic excellence and holistic development for over 25 years. Our mission is to nurture each child's unique potential through a balanced approach to education that combines rigorous academics with character development.
