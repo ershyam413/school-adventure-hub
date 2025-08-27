@@ -3,13 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build --port 8090",
-    "build:dev": "vite build --mode development",
-    "lint": "eslint .",
-    "preview": "vite preview --port 8090"
-  },
+"scripts": {
+  "dev": "vite --port 8090",
+  "build": "vite build",
+  "preview": "vite preview --port 8090"
+},
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
